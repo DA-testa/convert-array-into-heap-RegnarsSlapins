@@ -57,7 +57,7 @@ def main():
     # first two tests are from keyboard, third test is from a file
     entry=input()
     if entry[0]=="I":
-        n=input()
+        n=int(input())
         data=list(map(int, input().split()))
     elif entry[0]=="F":
         filename=input()
